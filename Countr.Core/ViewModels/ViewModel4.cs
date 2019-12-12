@@ -20,15 +20,22 @@ namespace Countr.Core.ViewModels
             _navigationService = navigationService;
 
             ReturnToView2Command = new MvxAsyncCommand(ReturnToView2Clicked);
+            ReturnToView1Command = new MvxAsyncCommand(ReturnToView1Clicked);
             CancelCommand = new MvxAsyncCommand(Cancel);
         }
 
-        public IMvxAsyncCommand ReturnToView2Command { get; }
+        public MvxAsyncCommand ReturnToView2Command { get; }
+        public MvxAsyncCommand ReturnToView1Command { get; }
 
 
         async Task ReturnToView2Clicked()
         {
             await _navigationService.Navigate(typeof(ViewModel2), new Counter());
+        }
+
+        async Task ReturnToView1Clicked()
+        {
+            await _navigationService.Navigate(typeof(Viewmodel1));
         }
 
         //----using a custom presenter and fragments to navigate the back stack. Not fully developed and seems to be a second choice to LaunchMode=SingleTask

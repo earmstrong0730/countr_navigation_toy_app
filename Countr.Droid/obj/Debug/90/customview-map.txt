@@ -14,8 +14,6 @@ color;obj\Debug\90\res\values\colors.xml
 declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\countr_navigation_toy_app\Countr.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\countr_navigation_toy_app\Countr.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 dimen;obj\Debug\90\res\values\dimens.xml
-EditText;obj\Debug\90\res\layout\view_2.xml
-EditText;obj\Debug\90\res\layout\view_3.xml
 EditText;obj\Debug\90\res\layout\view_4.xml
 FrameLayout;obj\Debug\90\res\layout\view_1.xml
 FrameLayout;obj\Debug\90\res\layout\view_2.xml
@@ -30,7 +28,6 @@ integer;obj\Debug\90\res\values\integers.xml
 item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\countr_navigation_toy_app\Countr.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
 item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\countr_navigation_toy_app\Countr.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 item;obj\Debug\90\res\drawable\splashscreen.xml
-item;obj\Debug\90\res\menu\new_counter_menu.xml
 item;obj\Debug\90\res\values\arrays.xml
 item;obj\Debug\90\res\values\splashstyle.xml
 item;obj\Debug\90\res\values\styles.xml

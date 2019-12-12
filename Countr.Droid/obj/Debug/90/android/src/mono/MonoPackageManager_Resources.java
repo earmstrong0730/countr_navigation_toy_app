@@ -2,8 +2,6 @@ package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Countr.Droid.dll" comes first in this list. */
-		"Countr.Droid.dll",
-		"Countr.Core.dll",
 		"MvvmCross.Binding.dll",
 		"MvvmCross.Binding.Droid.dll",
 		"MvvmCross.Core.dll",

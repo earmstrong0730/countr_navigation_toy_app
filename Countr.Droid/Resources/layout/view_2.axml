@@ -16,14 +16,10 @@
         android:layout_below="@id/toolbar_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <EditText
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            local:MvxBind="Text Name" />
         <Button
             android:text="Show View 3"
-            android:layout_width="300px"
-            android:layout_height="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             local:MvxBind="Click ShowView3Command"
             android:id="@+id/button1" />

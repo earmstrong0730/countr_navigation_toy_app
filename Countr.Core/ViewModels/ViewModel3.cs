@@ -8,7 +8,7 @@ using Countr.Core.ViewModels;
 using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
 
-//the  view model for MvxNavigatingObjectView
+//the  view model for view 3
 namespace Countr.Core.ViewModels
 {
 
@@ -66,6 +66,5 @@ namespace Countr.Core.ViewModels
             await _navigationService.Close(this);
         }
     }
-
 
 }

@@ -16,10 +16,6 @@
         android:layout_below="@id/toolbar_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <EditText
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            local:MvxBind="Text Name" />
         <Button
             android:text="Show view 4"
             android:layout_width="match_parent"

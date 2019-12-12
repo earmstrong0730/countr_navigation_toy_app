@@ -9,10 +9,9 @@ using Countr.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 namespace Countr.Droid.Views
-//Renamed some things and deleted others for clarification and efficiency in the demo
 {
     [Activity(Label = "@string/ApplicationName")]
-    //[Activity(Label = "@string/ApplicationName", LaunchMode =  LaunchMode.SingleTask)] //Single task sets up so that when this view is shown, the back stack is cleared
+    //[Activity(Label = "@string/ApplicationName", LaunchMode =  LaunchMode.SingleTask)] //To set the activity to SingleTask LaunchMode, uncomment this line and comment out the line above. 
     public class View1 : MvxAppCompatActivity<Viewmodel1>
     {
         protected override void OnCreate(Bundle bundle)
@@ -32,13 +31,6 @@ namespace Countr.Droid.Views
             var callback = new SwipeItemTouchHelperCallback(ViewModel);
             var touchHelper = new ItemTouchHelper(callback);
             touchHelper.AttachToRecyclerView(recyclerView);
-
-
-            ////---------------------clearing backstack???
-            //var intent = new Intent(this, typeof(CountersView));
-            //intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.ClearTask | ActivityFlags.NewTask);
-
-            //StartActivity(intent);  //this, in fact, does not only clear the backstack, but takes itself off too. Not very efficient if you want to see this activity. 
 
         }
 
