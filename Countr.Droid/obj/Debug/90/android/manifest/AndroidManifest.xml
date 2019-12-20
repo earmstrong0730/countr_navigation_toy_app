@@ -11,7 +11,7 @@
       </intent-filter>
     </activity>
     <activity android:label="@string/ApplicationName" android:name="md5cdf1d23afd2d015338969cb6a8496a88.View1" />
-    <activity android:label="Add a new counter" android:launchMode="singleTask" android:name="md5cdf1d23afd2d015338969cb6a8496a88.View2" />
+    <activity android:label="Add a new counter" android:name="md5cdf1d23afd2d015338969cb6a8496a88.View2" />
     <activity android:label="@string/ApplicationName" android:name="md5cdf1d23afd2d015338969cb6a8496a88.View4" />
     <activity android:label="@string/ApplicationName" android:name="md5cdf1d23afd2d015338969cb6a8496a88.View3" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.Countr.mono.MonoRuntimeProvider.__mono_init__" />

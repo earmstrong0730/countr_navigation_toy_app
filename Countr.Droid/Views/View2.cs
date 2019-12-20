@@ -8,8 +8,8 @@ using Android.Content.PM;
 
 namespace Countr.Droid.Views
 {
-    [Activity(Label = "Add a new counter", LaunchMode =  LaunchMode.SingleTask)] // Set as single task so that when this activity is shown, all activities above it in the stack are cleared
-    //[Activity(Label = "Add a new counter")] // to return the activity to standard mode, comment out the line above and uncomment this line
+    //[Activity(Label = "Add a new counter", LaunchMode =  LaunchMode.SingleTask)] // Set as single task so that when this activity is shown, all activities above it in the stack are cleared
+    [Activity(Label = "Add a new counter")] // to return the activity to standard mode, comment out the line above and uncomment this line
     public class View2 : MvxAppCompatActivity<ViewModel2>
     {
         protected override void OnCreate(Bundle bundle)
